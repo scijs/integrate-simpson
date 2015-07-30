@@ -1,11 +1,11 @@
 # integrate-simpson [![Build Status](https://travis-ci.org/scijs/integrate-simpson.svg)](https://travis-ci.org/scijs/integrate-simpson) [![npm version](https://badge.fury.io/js/integrate-simpson.svg)](http://badge.fury.io/js/integrate-simpson) [![Dependency Status](https://david-dm.org/scijs/integrate-simpson.svg)](https://david-dm.org/scijs/integrate-simpson)
 
-> Integrate a function of one variable using Simpson's Rule
+> Integrate a function of one variable using [Simpson's Rule](https://en.wikipedia.org/wiki/Simpson%27s_rule)
 
 
 ## Introduction
 
-This module computes the integral $$\int_a^b f(x) \, dx$$ using Simpson's method that approximates the function with quadratic segments using the summation $$ \int_a^b f(x)\,dx \approx \frac{h}{3}\left[ f( x_0) + 2\sum \limits_{j=1}^{n/2-1} f(x_{2j}) + 4\sum \limits_{j=1}^{n/2} f(x_{2j-1}) + f(x_n)\right]$$ where $x_j = a + jh$ for $j = 0, 1, \ldots, n-1, n$ with $h=(b-a)/n$.
+This module computes the integral $$\int_a^b f(x) \, dx$$ using [Simpson's Rule](https://en.wikipedia.org/wiki/Simpson%27s_rule) that approximates the function with quadratic segments. The summation is computed using the formula $$ \int_a^b f(x)\,dx \approx \frac{h}{3}\left[ f( x_0) + 2\sum \limits_{j=1}^{n/2-1} f(x_{2j}) + 4\sum \limits_{j=1}^{n/2} f(x_{2j-1}) + f(x_n)\right]$$ where $x_j = a + jh$ for $j = 0, 1, \ldots, n-1, n$ with $h=(b-a)/n$.
 
 ## Install
 

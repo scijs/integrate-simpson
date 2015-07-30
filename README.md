@@ -1,11 +1,11 @@
 # integrate-simpson [![Build Status](https://travis-ci.org/scijs/integrate-simpson.svg)](https://travis-ci.org/scijs/integrate-simpson) [![npm version](https://badge.fury.io/js/integrate-simpson.svg)](http://badge.fury.io/js/integrate-simpson) [![Dependency Status](https://david-dm.org/scijs/integrate-simpson.svg)](https://david-dm.org/scijs/integrate-simpson)
 
-> Integrate a function of one variable using Simpson's Rule
+> Integrate a function of one variable using [Simpson's Rule](https://en.wikipedia.org/wiki/Simpson%27s_rule)
 
 
 ## Introduction
 
-This module computes the integral <p align="center"><img alt="undefined" valign="middle" src="images/int_ab-fx-dx-a1ac3b24ed.png" width="99.5" height="54.5"></p> using Simpson's method that approximates the function with quadratic segments using the summation <p align="center"><img alt="undefined" valign="middle" src="images/int_ab-fxdx-approx-frach3left-f-x_0-2sum-limi-c435a73a06.png" width="581.5" height="76"></p> where <img alt="undefined" valign="middle" src="images/x_j-a-jh-c4411ea4b9.png" width="106.5" height="24"> for <img alt="undefined" valign="middle" src="images/j-0-1-ldots-n-1-n-4d4d39360d.png" width="180.5" height="21"> with <img alt="undefined" valign="middle" src="images/hb-an-888d0e1087.png" width="123" height="24">.
+This module computes the integral <p align="center"><img alt="undefined" valign="middle" src="images/int_ab-fx-dx-a1ac3b24ed.png" width="99.5" height="54.5"></p> using [Simpson's Rule](https://en.wikipedia.org/wiki/Simpson%27s_rule) that approximates the function with quadratic segments. The summation is computed using the formula <p align="center"><img alt="undefined" valign="middle" src="images/int_ab-fxdx-approx-frach3left-f-x_0-2sum-limi-c435a73a06.png" width="581.5" height="76"></p> where <img alt="undefined" valign="middle" src="images/x_j-a-jh-c4411ea4b9.png" width="106.5" height="24"> for <img alt="undefined" valign="middle" src="images/j-0-1-ldots-n-1-n-4d4d39360d.png" width="180.5" height="21"> with <img alt="undefined" valign="middle" src="images/hb-an-888d0e1087.png" width="123" height="24">.
 
 ## Install
 
@@ -18,8 +18,8 @@ $ npm install integrate-simpson
 ```javascript
 var simpson = require('integrate-simpson')
 
-// Integrate sin(x) from 0 to 1 using ten intervals
-simpson( Math.sin, 0, 1, 10 )
+// Integrate sin(x) from 0 to pi using ten intervals
+simpson( Math.sin, 0, Math.PI, 10 )
 // => 2.000006784441801
 ```
 
