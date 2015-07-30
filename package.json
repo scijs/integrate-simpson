@@ -1,6 +1,6 @@
 {
   "name": "integrate-simpson",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Integrate a function of one variable using Simpson's Rule",
   "main": "lib/index.js",
   "scripts": {
