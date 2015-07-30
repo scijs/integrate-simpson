@@ -1,7 +1,7 @@
 {
   "name": "integrate-simpson",
-  "version": "1.0.1",
-  "description": "Integrate a system of ODEs using the Second Order Runge-Kutta (Midpoint) method",
+  "version": "1.0.0",
+  "description": "Integrate a function of one variable using Simpson's Rule",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
