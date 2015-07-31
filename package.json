@@ -1,6 +1,6 @@
 {
   "name": "integrate-simpson",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Integrate a function of one variable using Simpson's Rule",
   "main": "lib/index.js",
   "scripts": {
@@ -27,8 +27,8 @@
     "gulp-markdown-equations": "^1.2.0",
     "gulp-pdftocairo": "^0.2.0",
     "gulp-tap": "^0.1.3",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "richardson-extrapolation": "^1.0.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
