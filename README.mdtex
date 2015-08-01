@@ -2,10 +2,11 @@
 
 > Integrate a function of one variable using [Simpson's Rule](https://en.wikipedia.org/wiki/Simpson%27s_rule)
 
-
 ## Introduction
 
 This module computes the integral $$\int_a^b f(x) \, dx$$ using [Simpson's Rule](https://en.wikipedia.org/wiki/Simpson%27s_rule) that approximates the function with quadratic segments. The summation is computed using the formula $$ \int_a^b f(x)\,dx \approx \frac{h}{3}\left[ f( x_0) + 2\sum \limits_{j=1}^{n/2-1} f(x_{2j}) + 4\sum \limits_{j=1}^{n/2} f(x_{2j-1}) + f(x_n)\right]$$ where $x_j = a + jh$ for $j = 0, 1, \ldots, n-1, n$ with $h=(b-a)/n$.
+
+This method is simple and easy to control but not particularly efficient. For an adaptive version of the same algorithm see [scijs/integrate-adaptive-simpson](https://github.com/scijs/integrate-adaptive-simpson).
 
 ## Install
 

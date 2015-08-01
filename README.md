@@ -2,10 +2,11 @@
 
 > Integrate a function of one variable using [Simpson's Rule](https://en.wikipedia.org/wiki/Simpson%27s_rule)
 
-
 ## Introduction
 
 This module computes the integral <p align="center"><img alt="undefined" valign="middle" src="images/int_ab-fx-dx-a1ac3b24ed.png" width="99.5" height="54.5"></p> using [Simpson's Rule](https://en.wikipedia.org/wiki/Simpson%27s_rule) that approximates the function with quadratic segments. The summation is computed using the formula <p align="center"><img alt="undefined" valign="middle" src="images/int_ab-fxdx-approx-frach3left-f-x_0-2sum-limi-c435a73a06.png" width="581.5" height="76"></p> where <img alt="undefined" valign="middle" src="images/x_j-a-jh-c4411ea4b9.png" width="106.5" height="24"> for <img alt="undefined" valign="middle" src="images/j-0-1-ldots-n-1-n-4d4d39360d.png" width="180.5" height="21"> with <img alt="undefined" valign="middle" src="images/hb-an-888d0e1087.png" width="123" height="24">.
+
+This method is simple and easy to control but not particularly efficient. For an adaptive version of the same algorithm see [scijs/integrate-adaptive-simpson](https://github.com/scijs/integrate-adaptive-simpson).
 
 ## Install
 
